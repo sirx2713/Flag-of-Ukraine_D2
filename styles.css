@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px 200px;
+}
+#container > #blue-box{
+    background-color: #0057B7;
+}
+#container > #yellow-box{
+    background-color: #FFC700;
+}
